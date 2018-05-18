@@ -38,9 +38,10 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'capistrano'
   gem 'capistrano-bundler'
+  gem 'capistrano-ext'
   gem 'capistrano-passenger'
   gem 'capistrano-rails'
-  # gem 'capistrano-sidekiq'
+  gem 'capistrano-sidekiq'
   gem 'selenium-webdriver'
   gem 'chromedriver-helper'
   gem 'solr_wrapper', '>= 0.3'
@@ -74,7 +75,7 @@ gem 'devise'
 gem 'devise-i18n'
 gem 'devise-guests', '~> 0.6'
 gem 'rsolr', '~> 2.0'
-# gem 'sidekiq'
+gem 'sidekiq'
 
 group :development, :test do
   gem 'fcrepo_wrapper'
