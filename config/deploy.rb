@@ -1,5 +1,5 @@
 # config valid only for current version of Capistrano
-lock "3.9.0"
+###lock "3.10.2" ### disabled locking because I just need this to work already, OK?
 
 set :application, "kickme"
 set :repo_url, "https://github.com/" + ENV['PROJECT_OWNER'] + "/" + ENV['PROJECT_NAME']
