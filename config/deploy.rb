@@ -8,7 +8,7 @@ set :repo_url, "https://github.com/" + ENV['PROJECT_OWNER'] + "/" + ENV['PROJECT
 set :branch, ENV['REVISION'] || ENV['BRANCH'] || 'master'
 
 #tmp dir 
-set :tmp_dir,"tmp"
+set :tmp_dir,"/home/deploy"
 
 # Default deploy_to directory is /var/www/my_app_name
 # set :deploy_to, "/var/www/my_app_name"
