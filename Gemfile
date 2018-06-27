@@ -80,6 +80,7 @@ gem 'devise-i18n'
 gem 'devise-guests', '~> 0.6'
 gem 'rsolr', '~> 2.0'
 gem 'sidekiq'
+gem 'okcomputer'
 
 group :development, :test do
   gem 'fcrepo_wrapper'
