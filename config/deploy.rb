@@ -26,6 +26,9 @@ set :tmp_dir,"/home/deploy/tmp"
 # Default value for :linked_files is []
 append :linked_files, "config/analytics.yml", "config/blacklight.yml", "config/browse_everything_providers.yml", "config/database.yml", "config/fedora.yml", "config/secrets.yml", "config/solr.yml"
 
+# required for the versioned footer
+append :linked_files, ".env.production"
+
 # Default value for linked_dirs is []
 append :linked_dirs, "log", "tmp/pids", "tmp/cache", "tmp/sockets", "public/system"
 
