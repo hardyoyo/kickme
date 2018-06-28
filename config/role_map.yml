@@ -23,3 +23,5 @@ production:
   # Add roles for users here.
   administrator:
     - hpottinger@library.ucla.edu
+    - kallen2@library.ucla.edu
+    - ksclarke@library.ucla.edu
